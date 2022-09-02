@@ -1,16 +1,16 @@
 function addTwoNumbers(a, b) {
-	//write your code here
-
+	let number = a + b;
+	return number;
 }
 
 function isLeftGreaterThanRight(leftNumber, rightNumber) {
-	//write your code here
-	
+	let comparison = leftNumber> rightNumber;
+	return comparison;
 }
-
+	
 function sayHello(name) {
-	//write your code here
-
+	let some = "Hello, " +name+ "!"
+	return some;
 }
 
 
@@ -20,3 +20,7 @@ module.exports = {
 	isLeftGreaterThanRight,
 	sayHello
 };
+
+addTwoNumbers();
+isLeftGreaterThanRight();
+sayHello();
